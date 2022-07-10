@@ -1,0 +1,64 @@
+/* Your code here */
+.interest {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.interests-bar__image{
+    grid-area: image;
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.interests-bar__story-title{
+    grid-area: text;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.interests-bar__story{
+    grid-area: text;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.interests-bar{
+    margin-left: 20px;
+    border-right: 1px solid #e2e2e2;
+    padding-right: 10px;
+
+
+}
+
+.interests-bar__stock-price{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+
+.interests-bar__big-text{
+    grid-area: text;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.interests-bar__name{
+    margin: 10px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.interests-bar__price{
+    margin: 10px;
+    color: rgb(10, 233, 10);
+    font-weight: bold;
+    padding-left: 20px;
+}

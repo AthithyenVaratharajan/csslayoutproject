@@ -1,0 +1,103 @@
+.masthead__menu-and-search{
+    grid-area: menu_search;
+    padding-left: 20px;
+
+
+}
+
+.masthead__actions{
+    grid-area: actions;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+
+
+}
+
+.masthead__technologies{
+    grid-area: technologies;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+
+
+}
+
+.masthead__date{
+    grid-area: date;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+
+}
+
+.masthead__logo{
+    grid-area: logo;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.masthead__paper{
+    grid-area: paper;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+
+    padding-bottom: 11px;
+
+}
+
+
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "menu_search . actions"
+    ". technologies ."
+    "date logo paper";
+
+    background-color: white;
+
+}
+
+.masthead__icons{
+    font-size: 11px;
+    padding: 7px 9px 7px 9px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.masthead__icons:hover{
+    background-color: #f7f7f5;
+
+}
+
+.masthead__buttons{
+    height: 100px;
+
+}
+
+
+
+.masthead__technology > span{
+    margin: 30px;
+
+}

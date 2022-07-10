@@ -1,0 +1,24 @@
+/* Your code here */
+.main >ul{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    text-align: center;
+
+
+    justify-content: center;
+
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.main >ul>li{
+    margin-right: 30px;
+    padding: 10px;;
+}
+
+.main >ul>li:hover{
+    background-color: #e2e2e2;
+    color: #6f6f6f;
+}
